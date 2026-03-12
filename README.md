@@ -37,6 +37,10 @@ PlantDoc-Balanced/
         class_3/
         ...
 ```
+## Final class distribution
+Each folder or class has 192 samples
+<img width="1390" height="590" alt="image" src="https://github.com/user-attachments/assets/6fda5a97-96d5-4f3e-985b-d264b8c4720e" />
+
 
 Each folder represents a plant disease class and contains all corresponding images.
 

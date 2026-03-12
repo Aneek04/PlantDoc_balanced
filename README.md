@@ -25,6 +25,19 @@ The following augmentation methods were used:
 
 These transformations help generate realistic variations of plant leaf images while preserving disease characteristics.
 
+#Code 
+```python
+augmentor = ImageDataGenerator(
+    rotation_range=30,
+    width_shift_range=0.15,
+    height_shift_range=0.15,
+    shear_range=0.15,
+    zoom_range=0.2,
+    horizontal_flip=True,
+    fill_mode='nearest'
+)
+
+```
 ## Dataset Structure
 
 The dataset follows a **standard image classification directory format**:

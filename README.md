@@ -25,7 +25,7 @@ The following augmentation methods were used:
 
 These transformations help generate realistic variations of plant leaf images while preserving disease characteristics.
 
-###Code 
+### Code 
 ```python
 augmentor = ImageDataGenerator(
     rotation_range=30,

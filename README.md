@@ -7,6 +7,9 @@ This repository contains a **class-balanced version of the PlantDoc dataset**, p
 The original **PlantDoc dataset** consists of real-world images of plant leaves captured in natural conditions. While the dataset is valuable for building robust models, it suffers from **significant class imbalance**, where some disease classes contain many more samples than others. This imbalance can bias machine learning models toward majority classes and degrade performance on minority classes.
 
 To address this issue, this repository provides a **balanced version of the dataset** where each class contains approximately the same number of images.
+## Original class distribution
+<img width="1005" height="695" alt="image" src="https://github.com/user-attachments/assets/bd4deb8f-3325-4f38-a2d7-d90c7e9e60ef" />
+
 
 ## Dataset Preparation
 

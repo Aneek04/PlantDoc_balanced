@@ -114,6 +114,12 @@ This balanced dataset is intended for:
 * Benchmarking classification algorithms
 
 Balancing the dataset helps improve model fairness and prevents bias toward dominant classes.
+### Limitations of the Balanced Dataset
+
+Although the dataset has been balanced to ensure that each class contains the same number of images, this approach has certain limitations. The balancing process relies on **data augmentation of minority classes**, meaning many of the added samples are transformed versions of existing images rather than entirely new data. As a result, some augmented images may introduce **high similarity between samples**, which can potentially lead to **overfitting** if not handled properly during model training.
+
+Additionally, augmentation-based balancing does not introduce new biological variations of plant diseases; it only creates geometric transformations such as rotation, flipping, shifting, and zooming. Therefore, while the dataset improves class distribution, it may still lack **true real-world diversity** in certain disease categories.
+
 
 ## Credits
 
